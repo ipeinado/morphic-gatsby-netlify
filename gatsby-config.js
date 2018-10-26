@@ -5,6 +5,7 @@ module.exports = {
     siteUrl: `https://morphic.world` 
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
