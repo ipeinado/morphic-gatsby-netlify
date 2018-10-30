@@ -1,8 +1,5 @@
 import React from "react"
-import netlifyIdentity from "netlify-identity-widget"
-
-window.netlifyIdentity = netlifyIdentity;
-
+        
 export default () => (
 	<div style={{ margin: `3rem auto`, maxWidth: 600 }}>
     <h1>Richard Hamming on Luck</h1>
