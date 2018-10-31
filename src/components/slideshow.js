@@ -70,7 +70,7 @@ class SlideShow extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      currentSlide: 1,
+      currentSlide: Math.floor(Math.random() * 4) + 1,
     }
     this.handleClick = this.handleClick.bind(this)
   }

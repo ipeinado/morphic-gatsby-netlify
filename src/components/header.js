@@ -66,12 +66,13 @@ class Header extends React.Component {
 			position: relative;
 			float: right;
 			margin-right: 15px;
-			padding: 9px 10px;
+			padding: 9px 12px 3px;
 			margin-top: 19px;
 			margin-bottom: 19px;
 			background-color: transparent;
 			background-image: none;
 			border-radius: 4px;
+			font-size: 28px;
 		`
 
 		return (
@@ -119,7 +120,7 @@ class Header extends React.Component {
 							</Link>
 							<ToggleButton onClick={ this.handleClick }>
 								<span className={css`
-									background-color: yellow;
+									display: none;
 								`}>
 								Toggle navigation
 								</span>

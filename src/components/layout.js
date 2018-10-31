@@ -2,14 +2,20 @@ import React from "react"
 import Header from "./header"
 import Footer from "./footer"
 
+import styled, { css } from "react-emotion"
+
 import "./layout.css"
+
+const Container = styled('div')`
+	background-color: yellow;
+`
 
 export default ({ children }) => (
 	<div>
 		<Header />
-		<div style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
+		<Container>
 			{ children }
-		</div>
+		</Container>
 		<Footer />
 	</div>
 )
