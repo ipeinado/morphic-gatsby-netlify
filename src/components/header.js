@@ -117,14 +117,13 @@ class Header extends React.Component {
 									{ (data.site.siteMetadata.title) }
 								</span>
 							</Link>
-							<p>{ window.location.pathname }</p>
 							<ToggleButton onClick={ this.handleClick }>
 								<span className={css`
 									background-color: yellow;
 								`}>
 								Toggle navigation
 								</span>
-								<FaBars style={{ color: `red` }} />
+								<FaBars />
 							</ToggleButton>
 						</Container>
 					</NavBar>
